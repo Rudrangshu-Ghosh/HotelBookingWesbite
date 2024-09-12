@@ -1,0 +1,91 @@
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\appsettings.json
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\HotelDetailsAPI.exe
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\HotelDetailsAPI.deps.json
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\HotelDetailsAPI.runtimeconfig.json
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\HotelDetailsAPI.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\HotelDetailsAPI.pdb
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\AWSSDK.Core.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\DnsClient.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\SharpCompress.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\Snappier.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\ZstdSharp.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.csproj.AssemblyReference.cache
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.AssemblyInfoInputs.cache
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.AssemblyInfo.cs
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.csproj.CoreCompileInputs.cache
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets\msbuild.HotelDetailsAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.HotelDetailsAPI.props
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HotelDetailsAPI.props
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HotelDetailsAPI.props
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\scopedcss\bundle\HotelDetailsAPI.styles.css
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\HotelDet.519A94AF.Up2Date
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\refint\HotelDetailsAPI.dll
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.pdb
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.genruntimeconfig.cache
+D:\Wipro\HotelBooking\HotelDetailsAPI\HotelDetailsAPI\obj\Debug\net8.0\ref\HotelDetailsAPI.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\appsettings.json
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\HotelDetailsAPI.exe
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\HotelDetailsAPI.deps.json
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\HotelDetailsAPI.runtimeconfig.json
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\HotelDetailsAPI.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\HotelDetailsAPI.pdb
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\AWSSDK.Core.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\DnsClient.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\SharpCompress.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\Snappier.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\ZstdSharp.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.csproj.AssemblyReference.cache
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.AssemblyInfoInputs.cache
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.AssemblyInfo.cs
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.csproj.CoreCompileInputs.cache
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.sourcelink.json
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets\msbuild.HotelDetailsAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.HotelDetailsAPI.props
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HotelDetailsAPI.props
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HotelDetailsAPI.props
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\scopedcss\bundle\HotelDetailsAPI.styles.css
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDet.519A94AF.Up2Date
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\refint\HotelDetailsAPI.dll
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.pdb
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\HotelDetailsAPI.genruntimeconfig.cache
+D:\Wipro\HotelBooking\HotelBackend\Hotel API\HotelDetailsAPI\obj\Debug\net8.0\ref\HotelDetailsAPI.dll

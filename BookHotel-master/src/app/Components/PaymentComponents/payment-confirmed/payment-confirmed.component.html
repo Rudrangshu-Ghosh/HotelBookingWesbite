@@ -1,0 +1,38 @@
+<div class="container my-5">
+  <!-- Booking Confirmed Message -->
+  <div class="text-center mb-4">
+    <h2 class="text-success">Booking Confirmed <span class="fs-1">✔️</span></h2>
+  </div>
+
+  <!-- User Details -->
+  <div class="card mb-4">
+    <div class="card-header">User Details</div>
+    <div class="card-body">
+      <p><strong>Name:</strong> {{ displayService.fullName }}</p>
+      <p><strong>Mobile Number:</strong> {{ displayService.currentPhone }}</p>
+      <p><strong>Email:</strong> {{ displayService.currentEmail }}</p>
+      <p><strong>Booking Date:</strong> {{ bookingDate | date }}</p>
+      <p><strong>Number of Rooms Booked:</strong> {{displayService.nRoomsBooked}}</p>
+      <p><strong>Number of Days:</strong> {{displayService.n_days}}</p>
+      <p><strong *ngIf="showPaid">Amount Paid:</strong> <strong class="text-danger" *ngIf="!showPaid">Amount Due:</strong>₹ {{displayService.amount}}</p>
+    </div>
+  </div>
+
+  <!-- Hotel Details -->
+  <div class="card">
+    <div class="card-header">Hotel Details</div>
+    <div class="card-body">
+      <h3 class="card-title">{{ currentHotel?.title }}</h3>
+      <p class="card-text"><strong>Location:</strong> {{ currentHotel?.location }}</p>
+      <p class="card-text"><strong>Rating:</strong> {{ currentHotel?.rating }} ({{ currentHotel?.score?.scoreDesc }} - {{
+        currentHotel?.score?.scorenum }} / 10, based on {{ currentHotel?.score?.n_ratings }} reviews)</p>
+      <p class="card-text"><strong>City:</strong> {{ currentHotel?.city }}</p>
+
+      <p class="card-text"><strong>Amenities:</strong></p>
+      <ul>
+        <li *ngFor="let amenity of currentHotel?.amenities">{{ amenity }}</li>
+      </ul>
+
+    </div>
+  </div>
+</div>

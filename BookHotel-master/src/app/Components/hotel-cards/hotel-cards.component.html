@@ -1,0 +1,106 @@
+<div class="d-flex justify-content-between mt-5 px-1">
+
+    <!-- Filters -->
+    <div class="card" style="background-color: antiquewhite;">
+        <div class="card-body">
+            <h5 class="card-title">Search Filters</h5>
+
+            <div class="row">
+
+                <div class="col">
+                    <p class="card-text"><strong>User Rating</strong></p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="rating" [(ngModel)]="selectedRating" [value]="9" id="rating9">
+                        <label class="form-check-label" for="rating9">Exceptional: 9+</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="rating" [(ngModel)]="selectedRating" [value]="8" id="rating8">
+                        <label class="form-check-label" for="rating8">Excellent: 8+</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="rating" [(ngModel)]="selectedRating" [value]="7" id="rating7">
+                        <label class="form-check-label" for="rating7">Very Good: 7+</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="rating" [(ngModel)]="selectedRating" [value]="6" id="rating6">
+                        <label class="form-check-label" for="rating6">Good: 6+</label>
+                      </div>
+                      <div class="form-check mb-2">
+                        <input class="form-check-input" type="radio" name="rating" [(ngModel)]="selectedRating" [value]="5" id="rating5">
+                        <label class="form-check-label" for="rating5">Pleasant: 5+</label>
+                      </div>
+                </div>
+
+                <div class="col mt-1">
+                    <p class="card-text"><strong>Price</strong></p>
+                    <div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="min">Minimum: ₹</span>
+                            <input type="number" class="form-control" placeholder="0" [(ngModel)]="minPrice" aria-label="Min" aria-describedby="min">
+                          </div>
+                          <div class="input-group">
+                            <span class="input-group-text" id="max">Maximum: ₹</span>
+                            <input type="number" class="form-control" placeholder="140000" [(ngModel)]="maxPrice" aria-label="Max" aria-describedby="max">
+                          </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <a (click)="applyFilters()" href="#" class="btn btn-primary mx-2">Apply Filters</a>
+                <a (click)="clearFilters()" href="#" class="btn btn-danger">Clear</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sort -->
+    <div class="btn-group w-25 h-25" data-bs-theme="dark">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            {{ selectedSortOption }}
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" (click)="sortHotels('priceAsc')">Price Ascending ⬆</a></li>
+            <li><a class="dropdown-item" href="#" (click)="sortHotels('priceDesc')">Price Descending ⬇</a></li>
+            <li><a class="dropdown-item" href="#" (click)="sortHotels('scoreAsc')">Score Ascending ⬆</a></li>
+            <li><a class="dropdown-item" href="#" (click)="sortHotels('scoreDesc')">Score Descending ⬇</a></li>
+            <li><a class="dropdown-item" href="#" (click)="clearSorting()">None</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<!-- Hotel cards -->
+<div class="container col-8 mt-5" *ngFor="let card of temphotelcards">
+    <div class="card hotel-card mb-4 shadow-lg">
+        <div class="row g-0">
+            <!-- Image Section -->
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <img src={{card.imgpath}} class="img-fluid hotel-image" alt="Hotel Image">
+            </div>
+
+            <!-- Details Section -->
+            <div class="col-md-5">
+                <div class="card-body">
+                    <h5 class="card-title">{{card.title}} <span class="rating">{{card.rating}}</span></h5>
+                    <p class="card-text location">{{card.location}}</p>
+                    <p class="card-text rating-score"><span class="score">{{card.score.scorenum}}</span>
+                        {{card.score.scoreDesc}} • {{card.score.n_ratings}} Ratings</p>
+                    <ul class="list-unstyled amenities" *ngFor="let amenity of card.amenities">
+                        <li>{{amenity}}</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Price and Booking Section -->
+            <div class="col-md-3 text-center d-flex flex-column justify-content-center">
+                <div class="card-body">
+                    <p class="price">₹{{card.price}}</p>
+                    <p class="taxes"> + ₹{{card.taxes}} taxes & fees per night, per room</p>
+                    <a class="btn btn-warning" (click)="onBookNowClick(card._id)">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

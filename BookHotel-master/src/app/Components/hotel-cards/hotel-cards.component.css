@@ -1,0 +1,57 @@
+#hotelCardContainer{
+    margin-right: 50px; /* Ensure uniform margin */
+}
+
+
+.hotel-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures rounded corners apply to all elements */
+}
+
+.hotel-image {
+    width: 100%; /* Adjusts the image to fill the width */
+    height: auto; /* Maintains the aspect ratio */
+    max-height: 200px; /* Set a max-height to prevent large images from increasing card height */
+    object-fit: cover; /* Ensures the image is cropped to fit within the set dimensions */
+    border-radius: 10px; /* Rounded corners on all sides */
+}
+
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.rating {
+    font-size: 1rem;
+    color: #f39c12;
+    margin-left: 10px;
+}
+
+.location, .rating-score, .amenities li {
+    font-size: 0.875rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.taxes {
+    font-size: 0.75rem;
+    color: #7f8c8d;
+}
+
+.btn-warning {
+    background-color: #e67e22;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-warning:hover {
+    background-color: #d35400;
+}

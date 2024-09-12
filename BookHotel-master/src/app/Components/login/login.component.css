@@ -1,0 +1,159 @@
+/* Container for the login box */
+.login-container {
+  width: 320px;
+  /* Adjust the width to fit your desired size */
+  margin: 50px auto;
+  /* Center the box horizontally and add some top margin */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  /* White background for contrast */
+}
+
+/* Header styling */
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form group styling */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+
+/* Label styling */
+label {
+  font-size: 1rem;
+  margin-right: 10px;
+  color: #555;
+}
+
+/* Input field styling */
+.mobile-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+.continue-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.continue-button:disabled {
+  background-color: lightblue;
+  cursor: not-allowed;
+  color: #666666;
+}
+
+
+.continue-button:hover {
+  background-color: #0056b3;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:disabled {
+  background-color: lightblue;
+  cursor: not-allowed;
+  color: #666666;
+}
+
+
+.signup-button:hover {
+  background-color: rgb(128, 31, 31);
+}
+
+/* Section for other login options */
+.other-login-options {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling for login buttons */
+.login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.login-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+/* Specific styles for Google login */
+.google-login {
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.google-login:hover {
+  background-color: #f8f8f8;
+}
+
+/* Specific styles for Facebook login */
+.facebook-login {
+  background-color: #3b5998;
+  color: white;
+}
+
+.facebook-login:hover {
+  background-color: #2d4373;
+}
+
+/* Terms and conditions text styling */
+.terms {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 15px;
+}
+
+.terms a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}

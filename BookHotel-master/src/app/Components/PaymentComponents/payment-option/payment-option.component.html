@@ -1,0 +1,79 @@
+<div>
+  <div class="payment-container mt-5">
+
+    <h2>Payment Options</h2>
+
+
+
+    <div class="d-flex justify-content-between align-items-center">
+
+      <!-- Payment Option: Pay Later -->
+      <div>
+        <label>
+          <input type="radio" name="paymentOption" [(ngModel)]="selectedOption" value="payLater" /> Pay Later
+        </label>
+      </div>
+
+      <!-- Payment Option: Pay Online -->
+      <div>
+        <label>
+          <input type="radio" name="paymentOption" [(ngModel)]="selectedOption" value="payNow" /> Pay Now
+        </label>
+      </div>
+
+      <!-- Price details aligned to the right -->
+      <div class="text-right">
+        <div>Price: ₹{{displayService.finalPrice}}</div>
+        <div>Taxes: ₹{{displayService.finalTax}}</div>
+        <div>Total: ₹{{displayService.amount}}</div>
+      </div>
+    </div>
+
+    <button type="button" class="btn mt-4" style="margin-left: 10%; width: 80%;" (click)="onContinue()">Continue</button>
+
+    <!-- Pay Later Modal -->
+    <div *ngIf="showPayLaterModal" class="modal show d-block" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header d-flex justify-content-between">
+            <h5 class="modal-title">Pay Later</h5>
+            <button type="button" class="close" (click)="closeModal()">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Confirm Booking?
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn w-25" data-bs-dismiss="modal" (click)="closeModal()">No</button>
+            <button type="button" class="btn w-25" routerLink="/paymentconfirmed">Yes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pay Now Modal -->
+    <div *ngIf="showPayNowModal" class="modal show d-block" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header d-flex justify-content-between">
+            <h5 class="modal-title">Pay Now</h5>
+            <button type="button" class="close" (click)="closeModal()">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Confirm Payment?
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn w-25" data-bs-dismiss="modal" (click)="closeModal()">No</button>
+            <button type="button" class="btn w-25" routerLink="/paymentconfirmed">Yes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Backdrop -->
+    <div *ngIf="showPayLaterModal || showPayNowModal" class="modal-backdrop fade show"></div>
+
+  </div>

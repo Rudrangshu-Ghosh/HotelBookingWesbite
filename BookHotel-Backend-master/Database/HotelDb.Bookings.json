@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "66dfd365e55993a00ab5f8c5"
+  },
+  "UserId": 1,
+  "HotelId": 2,
+  "CheckInDate": {
+    "Year": 2024,
+    "Month": 10,
+    "Day": 1
+  },
+  "CheckOutDate": {
+    "Year": 2024,
+    "Month": 10,
+    "Day": 5
+  },
+  "NumGuests": 2,
+  "NumRooms": 1,
+  "TotalAmount": "1000",
+  "PaymentStatus": "Pending",
+  "Name": "Tom",
+  "Email": "tom@cat.com",
+  "BookingDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 10
+  }
+},
+{
+  "_id": {
+    "$oid": "66dfd600e55993a00ab5f8c6"
+  },
+  "UserId": 1,
+  "HotelId": 18,
+  "CheckInDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 12
+  },
+  "CheckOutDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 26
+  },
+  "NumGuests": 2,
+  "NumRooms": 1,
+  "TotalAmount": "48916",
+  "PaymentStatus": "Confirmed",
+  "Name": "Amogh Banerjee",
+  "Email": "amoghbanerjee08@gmail.com",
+  "BookingDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 10
+  }
+},
+{
+  "_id": {
+    "$oid": "66dfd6f0e55993a00ab5f8c7"
+  },
+  "UserId": 1,
+  "HotelId": 21,
+  "CheckInDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 10
+  },
+  "CheckOutDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 28
+  },
+  "NumGuests": 2,
+  "NumRooms": 1,
+  "TotalAmount": "66330",
+  "PaymentStatus": "Confirmed",
+  "Name": "Amogh Banerjee",
+  "Email": "amoghbanerjee08@gmail.com",
+  "BookingDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 10
+  }
+},
+{
+  "_id": {
+    "$oid": "66dfd771e55993a00ab5f8c8"
+  },
+  "UserId": 2,
+  "HotelId": 3,
+  "CheckInDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 10
+  },
+  "CheckOutDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 27
+  },
+  "NumGuests": 2,
+  "NumRooms": 1,
+  "TotalAmount": "114903",
+  "PaymentStatus": "Pending",
+  "Name": "Sujit Dalve",
+  "Email": "s@d.com",
+  "BookingDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 10
+  }
+},
+{
+  "_id": {
+    "$oid": "66dfd7d3e55993a00ab5f8c9"
+  },
+  "UserId": 2,
+  "HotelId": 13,
+  "CheckInDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 20
+  },
+  "CheckOutDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 29
+  },
+  "NumGuests": 8,
+  "NumRooms": 3,
+  "TotalAmount": "112752",
+  "PaymentStatus": "Confirmed",
+  "Name": "Sujit Dalve",
+  "Email": "s@d.com",
+  "BookingDate": {
+    "Year": 2024,
+    "Month": 9,
+    "Day": 10
+  }
+}]

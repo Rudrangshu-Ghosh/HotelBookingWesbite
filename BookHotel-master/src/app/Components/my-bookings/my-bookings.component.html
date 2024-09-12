@@ -1,0 +1,24 @@
+<div class="min-vh-100 mt-3 d-flex flex-column justify-content-center align-items-center">
+    <h3 class="text-center mb-4">Your Bookings</h3>
+    <div *ngIf="bookings.length > 0" class="container">
+        <div *ngFor="let booking of bookings" class="card mb-4 shadow-sm p-4">
+            <p><strong>Customer Name:</strong> {{ booking.name }}</p>
+            <p><strong>Customer Email:</strong> {{ booking.email }}</p>
+            <p><strong>Booking Date:</strong> {{ booking.bookingDate }}</p>
+            <p><strong>Hotel Name:</strong> {{ booking.hotelTitle }}</p>
+            <p><strong>Hotel City:</strong> {{ booking.hotelCity }}</p>
+            <p><strong>Hotel Location:</strong> {{ booking.hotelLocation }}</p>
+            <p><strong>Check-in:</strong> {{ booking.checkInDate }}</p>
+            <p><strong>Check-out:</strong> {{ booking.checkOutDate }}</p>
+            <p><strong>Number of Guests:</strong> {{ booking.numGuests }}</p>
+            <p><strong>Number of Rooms Booked:</strong> {{ booking.numRooms }}</p>
+            <p><strong>Total Amount:</strong> ₹ {{ booking.totalAmount }}</p>
+            <p *ngIf="booking.paymentStatus === 'Pending'">
+                <strong>Payment Status: </strong> <span class="text-danger">{{ booking.paymentStatus }}</span>
+            </p>
+            <p *ngIf="booking.paymentStatus === 'Confirmed'">
+                <strong>Payment Status: </strong> <span class="text-success">{{ booking.paymentStatus }}</span>
+            </p>
+        </div>
+    </div>
+</div>

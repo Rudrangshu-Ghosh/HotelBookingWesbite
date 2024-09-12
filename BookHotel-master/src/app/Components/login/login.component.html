@@ -1,0 +1,138 @@
+<!-- Modal 1 (Before log in / sign up)-->
+<div class="modal fade" id="loginOrSignupModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Login to BookHotel</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <form #mobileForm="ngForm">
+          <div class="form-group">
+
+            <label for="mobileNumber">+91</label>
+            <input type="text" id="mobileNumber" placeholder="Enter Mobile Number" class="mobile-input"
+              name="mobileNumber" [(ngModel)]="mobileNumber" #mobileNumberInput="ngModel" required
+              pattern="^[6-9][0-9]{9}$">
+
+          </div>
+
+          <!-- Error Message -->
+          <div *ngIf="mobileNumberInput.invalid && mobileNumberInput.touched" class="text-danger mb-2">
+            Please enter a valid mobile number.
+          </div>
+
+          <button type="submit" class="continue-button" [disabled]="mobileForm.invalid" data-bs-toggle="modal"
+            data-bs-target="#loginModal">Continue to Log in</button>
+          <button type="submit" class="signup-button" [disabled]="mobileForm.invalid" data-bs-toggle="modal"
+            data-bs-target="#signupModal">Sign Up</button>
+
+        </form>
+        <!-- <div class="other-login-options">
+          <p>Other login options </p>
+          <button class="login-button google-login">
+            <img src="../../../assets/Social_Media_Icons/google-logo.png" alt="Google-Logo /">
+            Login with Google
+          </button>
+          <button class="login-button facebook-login">
+            <img src="../../../assets/Social_Media_Icons/facebook-logo.png " alt="Facebook-Logo /">
+            Login with Facebook
+          </button>
+        </div> -->
+      </div>
+      <div class="modal-footer mb-3 d-flex justify-content-center">
+        <p class="terms">By proceeding, you agree to our
+          <a href="#">T&C</a> and
+          <a href="#">Privacy policy</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 (For log in)-->
+<div class="modal fade" id="loginModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Enter your password</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div *ngIf="showLoginSuccessAlert" class="alert alert-success alert-dismissible fade show" [ngClass]="alertClass" role="alert">
+        {{alertText}}
+        <button type="button" class="btn-close" (click)="closeLoginAlert()" aria-label="Close"></button>
+      </div>
+
+
+      <div class="modal-body">
+
+        <form (ngSubmit)="onLogin()" #loginForm="ngForm">
+          <div class="form-group">
+
+            <input type="password" placeholder="Password" class="mobile-input" name="password"
+              [(ngModel)]="login.password" #passInput="ngModel" required>
+
+          </div>
+          <!-- Error Message -->
+          <div *ngIf="passInput.invalid && passInput.touched" class="text-danger mb-2">
+            Please enter your password.
+          </div>
+
+          <button type="submit" class="continue-button" [disabled]="loginForm.invalid">Log in</button>
+
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 (For sign up)-->
+<div class="modal fade" id="signupModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Create your account</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div *ngIf="showSignupSuccessAlert" class="alert alert-success alert-dismissible fade show" [ngClass]="alertClass" role="alert">
+        {{alertText}}
+        <button type="button" class="btn-close" (click)="closeSignupAlert()" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <form (ngSubmit)="signUp()" #signupForm="ngForm">
+          <div class="form-group">
+
+            <input type="text" placeholder="Username" class="mobile-input" name="username" [(ngModel)]="username"
+              #newUnameInput="ngModel" required>
+
+          </div>
+          <!-- Error Message -->
+          <div *ngIf="newUnameInput.invalid && newUnameInput.touched" class="text-danger mb-2">
+            Please enter a username.
+          </div>
+
+          <div class="form-group">
+            <input type="password" placeholder="Password" class="mobile-input" name="password"
+              [(ngModel)]="password_hash" #newPassInput="ngModel" required>
+          </div>
+          <!-- Error Message -->
+          <div *ngIf="newPassInput.invalid && newPassInput.touched" class="text-danger mb-2">
+            Please enter a password.
+          </div>
+
+          <button type="submit" class="continue-button">Sign up</button>
+
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+</div>

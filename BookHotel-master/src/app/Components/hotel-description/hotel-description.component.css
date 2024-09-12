@@ -1,0 +1,134 @@
+/* General Container Styling */
+.container-fluid {
+    padding: 0;
+}
+
+/* Image Styling */
+.img-fluid {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+img.one,
+img.two {
+    object-fit: cover;
+    height: 100%;
+}
+
+/* Hotel Info Styling */
+.hotel-info h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hotel-info span {
+    font-size: 20px;
+    color: gold;
+    /* Star color */
+}
+
+/* Rating Box Styling */
+.rating-box {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 80px;
+}
+
+.rating-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    /* Blue color for rating */
+}
+
+/* Location Icon Styling */
+.location-icon {
+    font-size: 24px;
+    color: #000;
+    /* Black color for the location icon */
+}
+
+/* Hotel Info Paragraph Styling */
+.hotel-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.view-map {
+    color: #f05a22;
+    /* Orange color for 'View on map' */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.view-map:hover {
+    text-decoration: underline;
+}
+
+/* Hotel About Section Styling */
+.hotel-about h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.hotel-about p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.hotel-about h3 {
+    margin-bottom: 20px;
+    /* Increase space below heading */
+}
+
+.hotel-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    /* Increase the gap between heading and icons */
+}
+
+.hotel-icons .icon-item {
+    text-align: center;
+    flex: 1 0 15%;
+    /* Adjust width of each icon item */
+}
+
+.hotel-icons .icon-item i {
+    font-size: 24px;
+    /* Size of the icons */
+    color: #000;
+    /* Icon color set to black */
+}
+
+.hotel-icons .icon-item p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #333;
+    /* Text color */
+}
+
+/* Center the Book Now Button */
+.text-center {
+    text-align: center;
+}
+
+.text-center .btn {
+    margin-top: 20px;
+    /* Space above the button */
+}
+
+.price {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.taxes {
+    font-size: 0.75rem;
+    color: #7f8c8d;
+}

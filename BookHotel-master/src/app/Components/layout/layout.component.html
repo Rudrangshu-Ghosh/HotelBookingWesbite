@@ -1,0 +1,166 @@
+<!-- Navbar -->
+<nav *ngIf="displaySevice.showNavBar" class="navbar navbar-expand-lg bg-info-subtle ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../../../assets/Icons/logo.png" alt="Logo" width="65" height="65"
+                class="d-inline-block rounded-4">
+        </a>
+        <a class="navbar-brand h1 fw-bold" href="#" style="font-family:cursive;">BookHotel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" 
+                        style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; cursor: pointer;"
+                        (click)="onHomeClick()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" 
+                        style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; cursor: pointer;" (click)="onAboutClick()">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" 
+                        style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; cursor: pointer;" (click)="onContactUsClick()">Contact Us</a>
+                </li>
+            </ul>
+            
+            <div *ngIf="displaySevice.isLoggedIn" class="dropdown">
+                <a class="navbar-brand" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="../../../assets/Icons/account.png" alt="Account" width="30" height="32" class="d-inline-block" style="cursor: pointer;">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li>
+                        <a class="dropdown-item" style="cursor: pointer;" (click)="onMyBookingsClick()">My Bookings</a>
+                    </li>
+                </ul>
+            </div>
+            
+
+            <!-- Add the login modal -->
+            <app-login></app-login>
+            <button *ngIf="!displaySevice.isLoggedIn" class="btn btn-outline-primary" type="button"
+                style="font-family: cursive;" data-bs-toggle="modal" data-bs-target="#loginOrSignupModal">Log in/Sign
+                up</button>
+
+            <a *ngIf="displaySevice.isLoggedIn" class="navbar-brand h1 fw-bold"
+                style="font-family:cursive; color: darkgreen;">Hello {{displaySevice.currentUser}}!</a>
+            <button *ngIf="displaySevice.isLoggedIn" class="btn btn-outline-danger" type="button"
+                style="font-family: cursive;" (click)="logOut()">Log out</button>
+        </div>
+    </div>
+</nav>
+
+<!-- Searchbar -->
+<div *ngIf="displaySevice.showSearchBar">
+    <div class="container-fluid d-flex align-items-center"
+        style="background-image: url('../../../assets/Images/Searchbar_Background.jpg'); background-size:cover; background-position: center; min-height: 430px;">
+        <div class="container p-5 bg-dark bg-opacity-50">
+            <form class="row g-2 align-items-center">
+                <div class="col-md">
+                    <label for="destination" class="form-label text-white">Destination</label>
+                    <div class="dropdown" id="citydropdown">
+                        <input type="text" class="form-control" placeholder="Destination" name="destination"
+                            [(ngModel)]="destination" (input)="filterDestinations()" (focus)="showDropdown = true">
+                        <ul *ngIf="showDropdown && filteredCities.length > 0" class="dropdown-menu w-100 show"
+                            style="display: block;">
+                            <li *ngFor="let city of filteredCities" (click)="selectDestination(city)"
+                                class="dropdown-item">
+                                {{ city }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <label for="checkin" class="form-label text-white">Check-in</label>
+                    <input type="date" class="form-control" [min]="minDate" name="checkInDate" [(ngModel)]="checkInDate"
+                        (change)="onCheckInDateChange($event)" (keydown)="preventTyping($event)">
+                </div>
+                <div class="col-md">
+                    <label for="checkout" class="form-label text-white">Check-out</label>
+                    <input type="date" class="form-control" [min]="checkInDate" name="checkOutDate"
+                        [(ngModel)]="checkOutDate" (keydown)="preventTyping($event)">
+                </div>
+                <div class="col-md">
+                    <label for="guests" class="form-label text-white">Rooms & Guests</label>
+                    <div class="dropdown">
+                        <button class="form-control dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            {{rooms}} Room{{rooms > 1 ? 's' : ''}}, {{totalGuests}} Guest{{totalGuests > 1 ? 's' : ''}}
+                        </button>
+                        <div class="dropdown-menu p-3">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span>Rooms</span>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-primary btn-sm"
+                                        (click)="decrement('rooms', $event)">-</button>
+                                    <span class="px-2">{{rooms}}</span>
+                                    <button type="button" class="btn btn-outline-primary btn-sm"
+                                        (click)="increment('rooms', $event)">+</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span>Adults</span>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-primary btn-sm"
+                                        (click)="decrement('adults', $event)">-</button>
+                                    <span class="px-2">{{adults}}</span>
+                                    <button type="button" class="btn btn-outline-primary btn-sm"
+                                        (click)="increment('adults', $event)">+</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>Children</span>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-outline-primary btn-sm"
+                                        (click)="decrement('children', $event)">-</button>
+                                    <span class="px-2">{{children}}</span>
+                                    <button type="button" class="btn btn-outline-primary btn-sm"
+                                        (click)="increment('children', $event)">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto align-self-end">
+                    <button type="submit" class="btn btn-info text-white w-100"
+                        (click)="onSearchClick()">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Alert if not logged in -->
+<div *ngIf="showLoginAlert" class="alert alert-danger alert-dismissible fade show" role="alert">
+    Please log in first!
+    <button type="button" class="btn-close" (click)="closeLoginAlert()" aria-label="Close"></button>
+</div>
+
+<app-home *ngIf="displaySevice.homeClicked"></app-home>
+<app-hotel-cards *ngIf="displaySevice.searchClicked"></app-hotel-cards>
+<app-hotel-description *ngIf="displaySevice.cardBookNowClicked"></app-hotel-description>
+
+<app-about-us *ngIf="displaySevice.showAboutUs"></app-about-us>
+<app-contact-us *ngIf="displaySevice.showContactUs"></app-contact-us>
+
+<app-my-bookings *ngIf="displaySevice.myBookingsClicked"></app-my-bookings>
+
+<!-- Footer -->
+<footer *ngIf="displaySevice.showFooter" class="d-flex align-items-center" style="background-color: #333; color: #fff; padding: 1%;  width: 100%;">
+    <div class="row w-100">
+        <div class="col-4">
+            © 2024 BookHotel
+        </div>
+        <div class="col-8">
+            <ul class="row list-unstyled mb-0">
+                <li class="col"><a href="#" style="text-decoration: none; color: white;">Privacy</a></li>
+                <li class="col"><a href="#" style="text-decoration: none; color: white;">Terms of Use</a></li>
+                <li class="col"><a href="#" style="text-decoration: none; color: white;">Career</a></li>
+                <li class="col"><a href="#" style="text-decoration: none; color: white;">Customer Service</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>

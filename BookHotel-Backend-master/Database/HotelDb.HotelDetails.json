@@ -1,0 +1,862 @@
+[{
+  "_id": 1,
+  "title": "Hotel Apple Inn and Suits, New Delhi",
+  "rating": "★★★★",
+  "city": "New Delhi",
+  "location": "Paharganj, New Delhi",
+  "score": {
+    "scorenum": 8.3,
+    "scoreDesc": "Very Good",
+    "n_ratings": 807
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 1729,
+  "availableFromMonth": 1,
+  "availableUntilMonth": 9,
+  "n_rooms": 50,
+  "description": "Hotel Apple Inn and Suits, New Delhi is a popular choice amongst travelers in New Delhi, whether exploring or just passing through. The hotel offers a wide range of amenities and perks to ensure you have a great time. All the necessary facilities, including free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, are at hand. Each guestroom is elegantly furnished and equipped with handy amenities. The hotel offers various recreational opportunities. Convenience and comfort make Hotel Apple Inn and Suits, New Delhi the perfect choice for your stay in New Delhi."
+},
+{
+  "_id": 2,
+  "title": "Park Inn by Radisson, South Delhi",
+  "rating": "★★★★★",
+  "city": "New Delhi",
+  "location": "1 & 2 Ring Road, Lajpat Nagar, 110024 New Delhi, India",
+  "score": {
+    "scorenum": 7.8,
+    "scoreDesc": "Good",
+    "n_ratings": 1732
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 5999,
+  "availableFromMonth": 3,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "Park Inn by Radisson, South Delhi is a popular choice amongst travelers in New Delhi. The hotel offers a wide range of amenities, including free Wi-Fi, restaurants, and 24/7 room service, ensuring a comfortable and convenient stay. Each guestroom is tastefully decorated and features modern facilities. Whether you're visiting for business or leisure, Park Inn by Radisson, South Delhi provides a relaxing and memorable experience for your stay in the city."
+},
+{
+  "_id": 3,
+  "title": "Crowne Plaza New Delhi Okhla, an IHG Hotel",
+  "rating": "★★★★★",
+  "city": "New Delhi",
+  "location": "Plot No 1, Community Centre Okhla, Phase-1, 110020 New Delhi, India",
+  "score": {
+    "scorenum": 7.9,
+    "scoreDesc": "Good",
+    "n_ratings": 1614
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 6035,
+  "availableFromMonth": 2,
+  "availableUntilMonth": 10,
+  "n_rooms": 50,
+  "description": "Crowne Plaza New Delhi Okhla, an IHG Hotel in New Delhi is a perfect choice for travelers. With amenities like free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, the hotel caters to every need. The well-appointed rooms are designed for comfort, making it a great base for both business and leisure travelers. Crowne Plaza New Delhi Okhla offers a variety of recreational opportunities, ensuring a pleasant stay."
+},
+{
+  "_id": 4,
+  "title": "Holiday Inn New Delhi Mayur Vihar Noida, an Ing Hotel",
+  "rating": "★★★★",
+  "city": "New Delhi",
+  "location": "Mayur Vihar Phase 1, New Delhi",
+  "score": {
+    "scorenum": 7.8,
+    "scoreDesc": "Good",
+    "n_ratings": 1658
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 6825,
+  "availableFromMonth": 4,
+  "availableUntilMonth": 8,
+  "n_rooms": 50,
+  "description": "Holiday Inn New Delhi Mayur Vihar Noida, an Ing Hotel offers a delightful stay in New Delhi. This hotel provides essential amenities such as free Wi-Fi, restaurants, and 24/7 room service, ensuring guests have a comfortable experience. Each room is thoughtfully designed with convenience in mind, making it the ideal place for travelers to unwind. For both leisure and business stays, Holiday Inn New Delhi Mayur Vihar Noida promises a memorable experience."
+},
+{
+  "_id": 5,
+  "title": "Serene Crest Resort",
+  "rating": "★★★★",
+  "city": "Mananthavady",
+  "location": "Located in Mananthavady, 12 miles from Banasura Hill",
+  "score": {
+    "scorenum": 8.8,
+    "scoreDesc": "Very Good",
+    "n_ratings": 297
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 6110,
+  "availableFromMonth": 1,
+  "availableUntilMonth": 11,
+  "n_rooms": 50,
+  "description": "Serene Crest Resort is a preferred destination in Mananthavady, offering a perfect getaway for relaxation. The resort features amenities like free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, ensuring a comfortable stay. Each room is elegantly furnished to provide guests with a peaceful and rejuvenating experience. Serene Crest Resort is ideal for a refreshing escape to Mananthavady."
+},
+{
+  "_id": 6,
+  "title": "Sylvan Resort",
+  "rating": "★★★★★",
+  "city": "Wayanad",
+  "location": "SylVan Resort offers air-conditioned accommodations in Wayanad",
+  "score": {
+    "scorenum": 9,
+    "scoreDesc": "Wonderful",
+    "n_ratings": 306
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 5150,
+  "availableFromMonth": 5,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "Sylvan Resort in Wayanad is a wonderful retreat for travelers. Featuring amenities such as free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, the resort promises a relaxing stay. The air-conditioned rooms are designed with comfort and elegance in mind. Whether for business or leisure, Sylvan Resort offers the perfect environment for a memorable visit to Wayanad."
+},
+{
+  "_id": 7,
+  "title": "Winter Vale Green Stay Resort",
+  "rating": "★★★★",
+  "city": "Vagamon",
+  "location": "Winter Vale Green Stay Resorts features an outdoor swimming pool, garden and water sports facilities in Vagamon. Featuring a kids' club, this property also provides guests with a playground.",
+  "score": {
+    "scorenum": 8,
+    "scoreDesc": "Very Good",
+    "n_ratings": 195
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 5599,
+  "availableFromMonth": 6,
+  "availableUntilMonth": 10,
+  "n_rooms": 50,
+  "description": "Winter Vale Green Stay Resort in Vagamon offers an exceptional experience for visitors. With an outdoor swimming pool, free Wi-Fi, restaurants, and 24/7 room service, the resort ensures a comfortable stay. The resort’s recreational facilities, including a playground and water sports, make it ideal for families and adventure seekers alike. Winter Vale Green Stay Resort is the perfect choice for a refreshing stay in Vagamon."
+},
+{
+  "_id": 8,
+  "title": "Wave Lakeview Resort",
+  "rating": "★★★★",
+  "city": "Wayanad",
+  "location": "Located in Wayanad, 2 miles from Heritage Museum",
+  "score": {
+    "scorenum": 8.7,
+    "scoreDesc": "Excellent",
+    "n_ratings": 153
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 9400,
+  "availableFromMonth": 4,
+  "availableUntilMonth": 9,
+  "n_rooms": 50,
+  "description": "Wave Lakeview Resort in Wayanad is an excellent choice for travelers looking for a serene and luxurious stay. Offering free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, the resort provides a relaxing environment. The beautifully furnished rooms and scenic surroundings make Wave Lakeview Resort a perfect getaway for both leisure and business travelers in Wayanad."
+},
+{
+  "_id": 9,
+  "title": "Ibis Chennai Omr-An Accor Brand",
+  "rating": "★★★★",
+  "city": "Chennai",
+  "location": "Opp.Elcot Sez,It Expressway,Old Mahabalipuram Road,Chennai",
+  "score": {
+    "scorenum": 7.5,
+    "scoreDesc": "Good",
+    "n_ratings": 2306
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 3135,
+  "availableFromMonth": 2,
+  "availableUntilMonth": 7,
+  "n_rooms": 50,
+  "description": "Ibis Chennai Omr-An Accor Brand is a popular choice for travelers visiting Chennai. The hotel offers a range of modern amenities, including free Wi-Fi, restaurants, and 24/7 room service. Conveniently located, Ibis Chennai Omr ensures a comfortable stay for both business and leisure travelers in the bustling city of Chennai."
+},
+{
+  "_id": 10,
+  "title": "The leela Palace Chennai",
+  "rating": "★★★★★",
+  "city": "Chennai",
+  "location": "Adyar Seaface,Mrc Nagar,Chennai",
+  "score": {
+    "scorenum": 8.8,
+    "scoreDesc": "Excellent",
+    "n_ratings": 2363
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 14400,
+  "availableFromMonth": 3,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "The Leela Palace Chennai in Chennai offers a luxurious experience with top-notch amenities, including free Wi-Fi, a swimming pool, restaurants, and 24/7 room service. The rooms are elegantly designed to ensure the utmost comfort and style. Whether for business or relaxation, The Leela Palace Chennai provides a sophisticated and memorable stay in Chennai."
+},
+{
+  "_id": 11,
+  "title": "The Park Chennai",
+  "rating": "★★★★",
+  "city": "Chennai",
+  "location": "601,Near US Embassy,Anna Salai,Nungambakkam,Chennai",
+  "score": {
+    "scorenum": 6.9,
+    "scoreDesc": "Pleasant",
+    "n_ratings": 3354
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 6599,
+  "availableFromMonth": 5,
+  "availableUntilMonth": 11,
+  "n_rooms": 50,
+  "description": "The Park Chennai is a well-known destination for travelers in Chennai. Offering free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, the hotel caters to all your needs. The rooms are stylishly furnished, ensuring a comfortable and pleasant stay. With a variety of recreational opportunities, The Park Chennai is a perfect choice for those visiting Chennai for leisure or business."
+},
+{
+  "_id": 12,
+  "title": "Novotel Chennai Chamiers Road",
+  "rating": "★★★★★",
+  "city": "Chennai",
+  "location": "City Center,Near Boat Club And Anna Salai,Nandanam,Chennai",
+  "score": {
+    "scorenum": 8.1,
+    "scoreDesc": "Very Good",
+    "n_ratings": 1797
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 7789,
+  "availableFromMonth": 1,
+  "availableUntilMonth": 10,
+  "n_rooms": 50,
+  "description": "Novotel Chennai Chamiers Road is a top choice for visitors to Chennai. The hotel offers modern amenities such as free Wi-Fi, a swimming pool, restaurants, and 24/7 room service to ensure a comfortable stay. With elegant accommodations and a convenient location, Novotel Chennai Chamiers Road is an ideal option for both leisure and business travelers seeking comfort in Chennai."
+},
+{
+  "_id": 13,
+  "title": "Novotel",
+  "rating": "★★★★★",
+  "city": "Vishakapatanam",
+  "location": "Near Rk Beach",
+  "score": {
+    "scorenum": 9.6,
+    "scoreDesc": "Very Good",
+    "n_ratings": 2347
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 3729,
+  "availableFromMonth": 6,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "Novotel, Vishakapatanam is a prime destination for travelers seeking luxury in Vishakapatanam. With free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, the hotel provides everything you need for a comfortable stay. Guests can enjoy beautifully furnished rooms and excellent recreational facilities, making Novotel the perfect choice for a relaxing visit to Vishakapatanam."
+},
+{
+  "_id": 14,
+  "title": "Beacon",
+  "rating": "★★★★★",
+  "city": "Vishakapatanam",
+  "location": "Abid nagar",
+  "score": {
+    "scorenum": 8.6,
+    "scoreDesc": "Very Good",
+    "n_ratings": 4347
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 2450,
+  "availableFromMonth": 2,
+  "availableUntilMonth": 8,
+  "n_rooms": 50,
+  "description": "Beacon, Vishakapatanam offers a superb stay for visitors to Vishakapatanam. The hotel provides free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, ensuring a stress-free experience. With elegantly designed rooms and excellent guest services, Beacon is an excellent option for those looking for convenience and comfort in Vishakapatanam."
+},
+{
+  "_id": 15,
+  "title": "The Park",
+  "rating": "★★★★",
+  "city": "Vishakapatanam",
+  "location": "City Central",
+  "score": {
+    "scorenum": 7.6,
+    "scoreDesc": "Good",
+    "n_ratings": 3314
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 1720,
+  "availableFromMonth": 7,
+  "availableUntilMonth": 11,
+  "n_rooms": 50,
+  "description": "The Park, Vishakapatanam is a popular destination for both leisure and business travelers. Offering free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, the hotel provides everything you need for a pleasant stay. The hotel’s stylish rooms and range of amenities make The Park, Vishakapatanam the perfect choice for your stay in the city."
+},
+{
+  "_id": 16,
+  "title": "Seaview",
+  "rating": "★★★★★",
+  "city": "Vishakapatanam",
+  "location": "Yarada",
+  "score": {
+    "scorenum": 8.4,
+    "scoreDesc": "Very Good",
+    "n_ratings": 3122
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 2900,
+  "availableFromMonth": 3,
+  "availableUntilMonth": 10,
+  "n_rooms": 50,
+  "description": "Seaview, Vishakapatanam offers a serene and luxurious stay with a range of amenities such as free Wi-Fi, a swimming pool, restaurants, and 24/7 room service. The air-conditioned rooms are elegantly furnished, ensuring a comfortable stay. Whether for relaxation or business, Seaview is an excellent option for visitors to Vishakapatanam."
+},
+{
+  "_id": 17,
+  "title": "Ramada by Wyndham ",
+  "rating": "★★★★",
+  "city": "Kolkata",
+  "location": "Metal Colony, Sikar Road",
+  "score": {
+    "scorenum": 6.3,
+    "scoreDesc": " Good",
+    "n_ratings": 1247
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 940,
+  "availableFromMonth": 4,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "Ramada by Wyndham, Kolkata is a wonderful choice for visitors to Kolkata, offering all the necessary amenities such as free Wi-Fi, a swimming pool, restaurants, and 24/7 room service. Each guestroom is thoughtfully designed for a comfortable experience. With its range of recreational activities, Ramada by Wyndham ensures a memorable stay in Kolkata."
+},
+{
+  "_id": 18,
+  "title": "Accor Hotel",
+  "rating": "★★★★★",
+  "city": "Kolkata",
+  "location": "Ballygunge",
+  "score": {
+    "scorenum": 8.8,
+    "scoreDesc": "Excellent",
+    "n_ratings": 4347
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 3120,
+  "availableFromMonth": 2,
+  "availableUntilMonth": 9,
+  "n_rooms": 50,
+  "description": "Accor Hotel, Kolkata provides an exceptional experience for travelers in Kolkata. With amenities like free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, the hotel ensures a relaxing stay. The elegant rooms and convenient location make Accor Hotel a top choice for business or leisure visitors."
+},
+{
+  "_id": 19,
+  "title": "Agoda Hotel",
+  "rating": "★★★★★",
+  "city": "Kolkata",
+  "location": "Park Street",
+  "score": {
+    "scorenum": 7.6,
+    "scoreDesc": "Very Good",
+    "n_ratings": 1347
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 2210,
+  "availableFromMonth": 5,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "Agoda Hotel, Kolkata offers a comfortable and convenient stay for visitors to Kolkata. The hotel is equipped with modern amenities such as free Wi-Fi, a swimming pool, restaurants, and 24/7 room service. With well-appointed rooms and excellent facilities, Agoda Hotel is an ideal option for your stay in Kolkata."
+},
+{
+  "_id": 20,
+  "title": "Hotel Angena",
+  "rating": "★★★",
+  "city": "Vishakapatanam",
+  "location": "Gariahat",
+  "score": {
+    "scorenum": 7.4,
+    "scoreDesc": " Good",
+    "n_ratings": 847
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 1460,
+  "availableFromMonth": 1,
+  "availableUntilMonth": 8,
+  "n_rooms": 50,
+  "description": "Hotel Angena, Vishakapatanam is a popular choice for travelers visiting Vishakapatanam. The hotel offers essential amenities including free Wi-Fi, a swimming pool, restaurants, and 24/7 room service. The well-designed rooms and relaxing environment make Hotel Angena a great choice for both leisure and business travelers in Vishakapatanam."
+},
+{
+  "_id": 21,
+  "title": "DLF Hotel",
+  "rating": "★★★★★",
+  "city": "Hyderabad",
+  "location": "DLF Road",
+  "score": {
+    "scorenum": 8.3,
+    "scoreDesc": "Very Good",
+    "n_ratings": 6347
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 3290,
+  "availableFromMonth": 3,
+  "availableUntilMonth": 11,
+  "n_rooms": 50,
+  "description": "DLF Hotel, Hyderabad provides a relaxing and comfortable stay for travelers in Hyderabad. With free Wi-Fi, restaurants, and 24/7 room service, the hotel caters to all your needs. Each guestroom is elegantly furnished, and the hotel offers a variety of recreational opportunities. DLF Hotel is the perfect destination for your visit to Hyderabad."
+},
+{
+  "_id": 22,
+  "title": "Trident Hotel",
+  "rating": "★★★★",
+  "city": "Hyderabad",
+  "location": "Hitech City",
+  "score": {
+    "scorenum": 9.1,
+    "scoreDesc": "Excellent",
+    "n_ratings": 2516
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 4100,
+  "availableFromMonth": 6,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "Trident Hotel, Hyderabad is an excellent choice for visitors to Hyderabad. With amenities such as free Wi-Fi, restaurants, and 24/7 room service, the hotel ensures a comfortable stay. The well-appointed rooms and recreational facilities make Trident Hotel a perfect option for leisure or business travelers in Hyderabad."
+},
+{
+  "_id": 23,
+  "title": "ITC Kohinoor",
+  "rating": "★★★★★",
+  "city": "Hyderabad",
+  "location": "Gachibowli",
+  "score": {
+    "scorenum": 9.8,
+    "scoreDesc": "Excellent",
+    "n_ratings": 5327
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 4870,
+  "availableFromMonth": 2,
+  "availableUntilMonth": 10,
+  "n_rooms": 50,
+  "description": "ITC Kohinoor, Hyderabad offers a luxurious experience for travelers. The hotel features free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, ensuring guests enjoy a comfortable and relaxing stay. With elegantly designed rooms, ITC Kohinoor is the ideal choice for those seeking luxury and convenience in Hyderabad."
+},
+{
+  "_id": 24,
+  "title": "Marriot",
+  "rating": "★★★★★",
+  "city": "Hyderabad",
+  "location": "Gachibowli",
+  "score": {
+    "scorenum": 9.2,
+    "scoreDesc": "Very Good",
+    "n_ratings": 3452
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming pool at the property",
+    "🍴 Restaurants",
+    "🕛 24*7 Room Service"
+  ],
+  "price": 3400,
+  "availableFromMonth": 4,
+  "availableUntilMonth": 9,
+  "n_rooms": 50,
+  "description": "Marriot, Hyderabad is a prime choice for travelers in Hyderabad. Offering modern amenities like free Wi-Fi, a swimming pool, restaurants, and 24/7 room service, the hotel provides an exceptional experience. The well-designed rooms and various recreational facilities make Marriot a perfect option for business and leisure visitors."
+},
+{
+  "_id": 25,
+  "title": "Ramada by Wyndham Amritsar",
+  "rating": "★★★★★",
+  "city": "Amritsar",
+  "location": "Katira Bagiya",
+  "score": {
+    "scorenum": 8.6,
+    "scoreDesc": "Excellent",
+    "n_ratings": 2509
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming Pool"
+  ],
+  "price": 5700,
+  "availableFromMonth": 1,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "Ramada by Wyndham Amritsar is a well-known destination in Amritsar, offering a range of amenities such as free Wi-Fi and a swimming pool. The hotel’s elegantly furnished rooms provide a comfortable stay, while the variety of recreational activities ensures a memorable experience. Ramada by Wyndham Amritsar is a great option for travelers."
+},
+{
+  "_id": 26,
+  "title": "Regenta Place Amritsar",
+  "rating": "★★★★",
+  "city": "Amritsar",
+  "location": "Model Town",
+  "score": {
+    "scorenum": 8,
+    "scoreDesc": "Excellent",
+    "n_ratings": 619
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming Pool"
+  ],
+  "price": 3021,
+  "availableFromMonth": 5,
+  "availableUntilMonth": 10,
+  "n_rooms": 50,
+  "description": "Regenta Place Amritsar offers visitors to Amritsar a comfortable and enjoyable stay. Featuring amenities like free Wi-Fi and a swimming pool, the hotel caters to all your needs. The hotel’s well-appointed rooms and convenient location make Regenta Place Amritsar a popular choice for travelers."
+},
+{
+  "_id": 27,
+  "title": "Fairfield by Marriott Amritsar",
+  "rating": "★★★★",
+  "city": "Amritsar",
+  "location": "Railway Link Road",
+  "score": {
+    "scorenum": 8.4,
+    "scoreDesc": "Excellent",
+    "n_ratings": 667
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming Pool"
+  ],
+  "price": 4550,
+  "availableFromMonth": 3,
+  "availableUntilMonth": 9,
+  "n_rooms": 50,
+  "description": "Fairfield by Marriott Amritsar is an ideal destination for those visiting Amritsar. With free Wi-Fi, a swimming pool, and well-designed rooms, the hotel offers a relaxing and comfortable stay. The excellent service and convenient location make Fairfield by Marriott Amritsar the perfect choice for leisure or business travelers."
+},
+{
+  "_id": 28,
+  "title": "Hyatt Regency Amritsar",
+  "rating": "★★★★",
+  "city": "Amritsar",
+  "location": "Rana Garden",
+  "score": {
+    "scorenum": 8.3,
+    "scoreDesc": "Excellent",
+    "n_ratings": 652
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming Pool"
+  ],
+  "price": 5000,
+  "availableFromMonth": 6,
+  "availableUntilMonth": 11,
+  "n_rooms": 50,
+  "description": "Hyatt Regency Amritsar offers an exceptional experience for travelers in Amritsar. With amenities like free Wi-Fi and a swimming pool, the hotel ensures a comfortable stay. The elegant rooms and convenient location make Hyatt Regency Amritsar an excellent option for those visiting the city."
+},
+{
+  "_id": 29,
+  "title": "Taj Swarna Amritsar",
+  "rating": "★★★★★",
+  "city": "Amritsar",
+  "location": "Beauty Avenue",
+  "score": {
+    "scorenum": 8.7,
+    "scoreDesc": "Excellent",
+    "n_ratings": 179
+  },
+  "amenities": [
+    "✔ Free Wifi",
+    "✔ Swimming Pool"
+  ],
+  "price": 8700,
+  "availableFromMonth": 2,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "Taj Swarna Amritsar is a luxurious choice for travelers visiting Amritsar. Offering free Wi-Fi, a swimming pool, and stylish rooms, the hotel provides a comfortable and relaxing experience. Whether for business or leisure, Taj Swarna Amritsar promises an unforgettable stay in Amritsar."
+},
+{
+  "_id": 30,
+  "title": "The Taj Mahal Palace Mumbai",
+  "rating": "★★★★★",
+  "city": "Mumbai",
+  "location": "Colaba",
+  "score": {
+    "scorenum": 9.2,
+    "scoreDesc": "Exceptional",
+    "n_ratings": 237
+  },
+  "amenities": [
+    "✔ Opera Experience",
+    "✔ Express check-in"
+  ],
+  "price": 29265,
+  "availableFromMonth": 1,
+  "availableUntilMonth": 10,
+  "n_rooms": 50,
+  "description": "The Taj Mahal Palace Mumbai is a legendary hotel in Mumbai, offering luxurious accommodations and amenities like an opera experience and express check-in. The rooms are elegantly designed, providing guests with the utmost comfort. The Taj Mahal Palace Mumbai is the perfect choice for those seeking a sophisticated stay in Mumbai."
+},
+{
+  "_id": 31,
+  "title": "JW Marriott Mumbai ",
+  "rating": "★★★★★",
+  "city": "Mumbai",
+  "location": "Juhu",
+  "score": {
+    "scorenum": 8.7,
+    "scoreDesc": "Excellent",
+    "n_ratings": 599
+  },
+  "amenities": [
+    "✔ Ocean View",
+    "✔ Booking with ₹0 Payment"
+  ],
+  "price": 16000,
+  "availableFromMonth": 3,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "JW Marriott Mumbai offers a luxurious experience for visitors to Mumbai. The hotel provides modern amenities such as ocean views, booking with ₹0 payment, and spacious rooms. Whether for leisure or business, JW Marriott Mumbai ensures a memorable stay in the city."
+},
+{
+  "_id": 32,
+  "title": "The Westin Mumbai",
+  "rating": "★★★★★",
+  "city": "Mumbai",
+  "location": "Goregaon East",
+  "score": {
+    "scorenum": 8.9,
+    "scoreDesc": "Excellent",
+    "n_ratings": 579
+  },
+  "amenities": [
+    "✔ Booking with ₹0 Payment",
+    "✔ Express check-in"
+  ],
+  "price": 26000,
+  "availableFromMonth": 4,
+  "availableUntilMonth": 11,
+  "n_rooms": 50,
+  "description": "The Westin Mumbai is a renowned hotel in Mumbai, providing top-notch services and amenities like express check-in and booking with ₹0 payment. With stylish rooms and a convenient location, The Westin Mumbai is the perfect choice for a comfortable and relaxing stay."
+},
+{
+  "_id": 33,
+  "title": "ITC Maratha Mumbai",
+  "rating": "★★★★★",
+  "city": "Mumbai",
+  "location": "Andheri East",
+  "score": {
+    "scorenum": 8.6,
+    "scoreDesc": "Excellent",
+    "n_ratings": 690
+  },
+  "amenities": [
+    "✔ Booking with ₹0 Payment",
+    "✔ Currency Exchange"
+  ],
+  "price": 14300,
+  "availableFromMonth": 2,
+  "availableUntilMonth": 8,
+  "n_rooms": 50,
+  "description": "ITC Maratha Mumbai offers a luxurious stay in Mumbai, featuring amenities like currency exchange, booking with ₹0 payment, and elegantly furnished rooms. The hotel ensures guests have a comfortable and relaxing experience, making ITC Maratha Mumbai a great option for travelers."
+},
+{
+  "_id": 34,
+  "title": "Trident Mumbai",
+  "rating": "★★★★★",
+  "city": "Mumbai",
+  "location": "Nariman Point",
+  "score": {
+    "scorenum": 8.9,
+    "scoreDesc": "Excellent",
+    "n_ratings": 1439
+  },
+  "amenities": [
+    "✔ Indoor Swimming Pool",
+    "✔ Express check-in"
+  ],
+  "price": 15349,
+  "availableFromMonth": 1,
+  "availableUntilMonth": 9,
+  "n_rooms": 50,
+  "description": "Trident Mumbai is a top choice for visitors to Mumbai, offering luxurious accommodations with amenities such as an indoor swimming pool and express check-in. The hotel’s well-designed rooms and convenient location make Trident Mumbai a perfect destination for business and leisure travelers."
+},
+{
+  "_id": 35,
+  "title": "The Leela Palace Bengaluru",
+  "rating": "★★★★★",
+  "city": "Bangalore",
+  "location": "Kodihalli",
+  "score": {
+    "scorenum": 8.8,
+    "scoreDesc": "Excellent",
+    "n_ratings": 335
+  },
+  "amenities": [
+    "✔ Book with ₹0 Payment",
+    "✔ Express check-in"
+  ],
+  "price": 126900,
+  "availableFromMonth": 6,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "The Leela Palace Bengaluru is a luxurious retreat in Bangalore, offering a range of amenities like booking with ₹0 payment and express check-in. The hotel’s elegantly furnished rooms and excellent services ensure a comfortable and relaxing stay for travelers. The Leela Palace Bengaluru is the ideal choice for a luxurious experience."
+},
+{
+  "_id": 36,
+  "title": "The Ritz-Carlton Bengaluru",
+  "rating": "★★★★★",
+  "city": "Bangalore",
+  "location": "Richmond Town",
+  "score": {
+    "scorenum": 8.7,
+    "scoreDesc": "Excellent",
+    "n_ratings": 71
+  },
+  "amenities": [
+    "✔ Book with ₹0 Payment",
+    "✔ Express check-in"
+  ],
+  "price": 32000,
+  "availableFromMonth": 3,
+  "availableUntilMonth": 11,
+  "n_rooms": 50,
+  "description": "The Ritz-Carlton Bengaluru offers an elegant and sophisticated stay in Bangalore. With amenities like booking with ₹0 payment and express check-in, the hotel ensures guests have a comfortable experience. The stylishly furnished rooms make The Ritz-Carlton Bengaluru a prime choice for those seeking luxury in Bangalore."
+},
+{
+  "_id": 37,
+  "title": "JW Marriott Hotel Bengaluru",
+  "rating": "★★★★★",
+  "city": "Bangalore",
+  "location": "Gandhinagar",
+  "score": {
+    "scorenum": 8.8,
+    "scoreDesc": "Excellent",
+    "n_ratings": 67
+  },
+  "amenities": [
+    "✔ Book with ₹0 Payment",
+    "✔ Express check-in"
+  ],
+  "price": 17600,
+  "availableFromMonth": 5,
+  "availableUntilMonth": 12,
+  "n_rooms": 50,
+  "description": "JW Marriott Hotel Bengaluru provides a luxurious experience for travelers in Bangalore. Featuring amenities like booking with ₹0 payment and express check-in, the hotel offers comfortable accommodations and top-notch services. JW Marriott Hotel Bengaluru is the perfect option for visitors seeking a memorable stay."
+},
+{
+  "_id": 38,
+  "title": "The Oberoi Bengaluru",
+  "rating": "★★★★★",
+  "city": "Bangalore",
+  "location": "Ashok Nagar",
+  "score": {
+    "scorenum": 9.3,
+    "scoreDesc": "Exceptional",
+    "n_ratings": 541
+  },
+  "amenities": [
+    "✔ Book with ₹0 Payment",
+    "✔ Express check-in"
+  ],
+  "price": 23000,
+  "availableFromMonth": 4,
+  "availableUntilMonth": 10,
+  "n_rooms": 50,
+  "description": "The Oberoi Bengaluru is an exceptional hotel in Bangalore, offering luxurious amenities like booking with ₹0 payment and express check-in. The hotel’s elegantly designed rooms ensure a comfortable stay, making The Oberoi Bengaluru an excellent option for travelers seeking a relaxing and luxurious experience."
+},
+{
+  "_id": 39,
+  "title": "Conrad Bengaluru",
+  "rating": "★★★★★",
+  "city": "Bangalore",
+  "location": "Ulsoor",
+  "score": {
+    "scorenum": 8.8,
+    "scoreDesc": "Excellent",
+    "n_ratings": 424
+  },
+  "amenities": [
+    "✔ Book with ₹0 Payment",
+    "✔ Breakfast Included"
+  ],
+  "price": 24000,
+  "availableFromMonth": 2,
+  "availableUntilMonth": 7,
+  "n_rooms": 50,
+  "description": "Conrad Bengaluru offers a luxurious and comfortable stay in Bangalore. With amenities like booking with ₹0 payment and breakfast included, the hotel ensures guests enjoy their stay. The beautifully furnished rooms and excellent services make Conrad Bengaluru a perfect choice for travelers."
+}]
